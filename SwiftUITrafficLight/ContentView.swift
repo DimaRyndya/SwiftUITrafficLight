@@ -7,25 +7,32 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     @State private var buttonName = "NEXT"
     var body: some View {
-        VStack {
-            LightCircle(lightColor: .red)
-            LightCircle(lightColor: .yellow)
-            LightCircle(lightColor: .green)
-            Spacer()
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                Text("START")
-                    .fontWeight(.bold)
+        ZStack {
+            Color.black
+                .ignoresSafeArea()
+            VStack(spacing: 20) {
+                LightCircle(lightColor: .red)
+                LightCircle(lightColor: .yellow)
+                LightCircle(lightColor: .green)
+                Spacer()
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("START")
+                        .fontWeight(.bold)
+                        .font(.system(size: 20))
+                    
+                }
+                .padding(EdgeInsets(top: 15, leading: 50, bottom: 15, trailing: 50))
+                .foregroundColor(.white)
+                .background(Color.blue)
+                .cornerRadius(15)
+                .overlay(RoundedRectangle(cornerRadius: 15).stroke(Color.white, lineWidth: 4))
+                
             }
-            .padding()
-            .foregroundColor(.white)
-            .background(Color.blue)
-            .cornerRadius(10)
-            .frame(width: 150, height: 100)
         }
-        .padding()
     }
 }
 

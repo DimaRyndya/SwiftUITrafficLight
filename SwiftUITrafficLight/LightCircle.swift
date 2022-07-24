@@ -11,8 +11,9 @@ struct LightCircle: View {
     var lightColor: Color
     var body: some View {
         Circle()
-            .foregroundColor(lightColor)
+            .foregroundColor(lightColor.opacity(0.3))
             .frame(width: 100, height: 100)
+            .overlay(Circle().stroke(Color.white, lineWidth: 4))
     }
 }
 
