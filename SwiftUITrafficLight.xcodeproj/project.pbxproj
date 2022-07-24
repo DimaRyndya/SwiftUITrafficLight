@@ -11,6 +11,7 @@
 		1D093BCD288DA4B700E303B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D093BCC288DA4B700E303B3 /* ContentView.swift */; };
 		1D093BCF288DA4B900E303B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D093BCE288DA4B900E303B3 /* Assets.xcassets */; };
 		1D093BD2288DA4B900E303B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D093BD1288DA4B900E303B3 /* Preview Assets.xcassets */; };
+		1D093BDA288DA64400E303B3 /* LightCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D093BD9288DA64400E303B3 /* LightCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1D093BCE288DA4B900E303B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D093BD1288DA4B900E303B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D093BD3288DA4B900E303B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D093BD9288DA64400E303B3 /* LightCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				1D093BCA288DA4B700E303B3 /* SwiftUITrafficLightApp.swift */,
 				1D093BCC288DA4B700E303B3 /* ContentView.swift */,
+				1D093BD9288DA64400E303B3 /* LightCircle.swift */,
 				1D093BCE288DA4B900E303B3 /* Assets.xcassets */,
 				1D093BD3288DA4B900E303B3 /* Info.plist */,
 				1D093BD0288DA4B900E303B3 /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				1D093BCD288DA4B700E303B3 /* ContentView.swift in Sources */,
 				1D093BCB288DA4B700E303B3 /* SwiftUITrafficLightApp.swift in Sources */,
+				1D093BDA288DA64400E303B3 /* LightCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
